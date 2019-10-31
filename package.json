@@ -1,0 +1,36 @@
+{
+  "name": "mongotest",
+  "version": "1.0.0",
+  "description": "mongoTest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch '*.ts' --exec ts-node app.ts",
+    "go": "nodemon --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ydlamia/mongoTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ydlamia/mongoTest/issues"
+  },
+  "homepage": "https://github.com/ydlamia/mongoTest#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-router": "^7.4.0",
+    "mongodb": "^3.3.3",
+    "mongoose": "^5.7.7",
+    "node": "^12.13.0",
+    "nodemon": "^1.19.4",
+    "typescript": "^3.6.4"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.5.28",
+    "@types/node": "^12.12.3"
+  }
+}
