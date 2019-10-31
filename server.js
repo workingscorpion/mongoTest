@@ -6,4 +6,4 @@ db.once('open', () => {
   console.log('Connected to mongod server');
 });
 
-mongoose.connect('mongodb://localhost/test');
+mongoose.connect('mongodb://localhost/mongodb_tutorial');

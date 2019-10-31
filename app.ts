@@ -40,7 +40,7 @@ router.get('/store', (ctx, next) => {
     if (!err) {
       console.log('mongo connected');
     }
-    const ns = connection.collection('test');
+    const test = connection.collection('test');
     db.test.insert({ name: `${name}` });
   });
 
